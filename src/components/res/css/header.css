@@ -1,0 +1,52 @@
+
+
+/* Web configurations */
+
+#header { 
+    width: 100vw;
+    height: 70vh;
+    background: linear-gradient(to right, #2E2C2C 60%, #951919 40%);
+    z-index: -1;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pst, #header #foto img {
+    flex: 1;
+    height: 65vh;
+    margin: 0px;
+    position: relative;
+}
+
+#foto {
+    width: auto;
+    height: 65vh;
+    margin: 5vh 35vw 0 0;
+    padding: 0px;
+}
+
+#header .pst {
+    margin: 8% 0 0 15vw;
+    max-width: 40%;
+}
+
+.pst h3 {
+    font-weight: bold;
+    color: #951919;
+    font-size: 5.3vh;
+}
+
+.pst h5, .pst h6 {
+    color: rgb(221, 205, 205);
+}
+
+.pst h5 {
+    font-size: 3vh;
+}
+
+.pst h6 {
+    margin-bottom: -20px;
+    font-size: 2.5vh;
+}
